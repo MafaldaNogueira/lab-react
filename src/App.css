@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.headerImage {
+ background-color: rgb(32, 37, 65);
+ color: white;
+ padding-left: 70px;
+ padding-top: 40px;
+}
+
+.headerImage h1{
+  padding-top: 50px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.headerImage p{
+  font-size: 20px;
+}
+
+.headerImage button{
+  margin: 30px;
+ background-color: white;
+ padding: 20px 30px;
+ font-size: 30px;
+ font-weight: bold;
+ border-radius: 10px;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
